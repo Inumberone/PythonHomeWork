@@ -90,10 +90,11 @@ print('Введи координаты: ')
 
 x1=int (input('Введи x1: '))
 y1=int (input('Введи y1: '))
+z1=int (input('Введи z1: '))
 x2=int (input('Введи x2: '))
 y2=int (input('Введи y2: '))
-z3=int (input('Введи z3: '))
-z3=int (input('Введи z3: '))
+z2=int (input('Введи z2: '))
+
 
 distance_2d = float ((x2 - x1)**2 + (y2-y1)**2 + (z2-z1)**2)**0.5
 print(f'{distance_2d:.2f} - расстояние между двумя точками с двумя знаками после запятой')
