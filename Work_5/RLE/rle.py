@@ -8,9 +8,9 @@ with open('file_encod.txt', 'w') as data:
 with open('file_encod.txt', 'r') as data:
     string = data.readline()
 
-def rle_encod(decod_string):
+def rle_encod (decod_string):
     encod_string = ''
-    count = 1
+    count  = 1
     num_list = decod_string[0]
     for i in range(1, len(decod_string)):
         if decod_string[i] == num_list:
@@ -18,10 +18,9 @@ def rle_encod(decod_string):
         else:
             encod_string = encod_string + str(count) + num_list
             num_list = decod_string[i]
-            count = 1
+            count  = 1
             encod_string = encod_string + str(count) + num_list
     return encod_string
-
 
 def rle_decod(encod_string):
     decod_string = ''
