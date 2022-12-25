@@ -1,2 +1,2 @@
-# PythonHomeWork
-***По 9 работе смотреть Work_candy***
+*** PythonHomeWork ***
+# По 9 работе смотреть Work_candy
